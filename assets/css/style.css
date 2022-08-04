@@ -1,0 +1,49 @@
+#hero {
+  background: url("../img/hero-banner.png"), rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sub-title {
+  color: #f4cb08;
+  font-size: 24px;
+  font-weight: 400;
+}
+.title {
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+}
+.title::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 3px;
+  background: #f4cb08;
+  left: 0;
+  top: 80px;
+}
+.details {
+  padding: 40px 260px 0 0;
+}
+.portfolio {
+  background: #f4cb08;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+.portfolio:hover {
+  background: #dcb707;
+}
+.about {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: 2px solid white;
+  margin-left: 20px;
+}
+.about:hover {
+  color: black !important;
+  background: white;
+}
